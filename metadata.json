@@ -1,0 +1,5 @@
+{
+  "name": "TrendSpotter AI Blog",
+  "description": "A tech blog that uses AI to not only report on trending topics from Google Trends but also explain exactly why they are trending.",
+  "requestFramePermissions": []
+}

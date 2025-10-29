@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendSpotter AI Blog</title>
+    
+    <!-- SEO & Social Sharing Meta Tags -->
+    <meta name="description" content="Discover not just what's trending in tech, but why. TrendSpotter AI uses AI and Google Trends to provide deep insights into the latest topics in AI, cybersecurity, cloud computing, and more." />
+    <meta name="keywords" content="AI blog, tech trends, Google Trends analysis, artificial intelligence, cybersecurity, cloud computing, quantum computing, DeFi, technology news" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TrendSpotter AI Blog" />
+    <meta property="og:description" content="Your AI-powered guide to understanding why tech topics are trending." />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="TrendSpotter AI Blog" />
+    <meta property="twitter:description" content="Your AI-powered guide to understanding why tech topics are trending." />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            typography: ({ theme }) => ({
+              DEFAULT: {
+                css: {
+                  '--tw-prose-body': theme('colors.gray[300]'),
+                  '--tw-prose-headings': theme('colors.white'),
+                  '--tw-prose-lead': theme('colors.gray[400]'),
+                  '--tw-prose-links': theme('colors.cyan[400]'),
+                  '--tw-prose-bold': theme('colors.white'),
+                  '--tw-prose-counters': theme('colors.gray[400]'),
+                  '--tw-prose-bullets': theme('colors.gray[500]'),
+                  '--tw-prose-hr': theme('colors.gray[700]'),
+                  '--tw-prose-quotes': theme('colors.gray[200]'),
+                  '--tw-prose-quote-borders': theme('colors.cyan[500]'),
+                  '--tw-prose-captions': theme('colors.gray[400]'),
+                  '--tw-prose-code': theme('colors.white'),
+                  '--tw-prose-pre-code': theme('colors.gray[300]'),
+                  '--tw-prose-pre-bg': theme('colors.gray[800]'),
+                  '--tw-prose-th-borders': theme('colors.gray[600]'),
+                  '--tw-prose-td-borders': theme('colors.gray[700]'),
+                  '--tw-prose-invert-body': theme('colors.gray[300]'),
+                  '--tw-prose-invert-headings': theme('colors.white'),
+                  '--tw-prose-invert-lead': theme('colors.gray[400]'),
+                  '--tw-prose-invert-links': theme('colors.cyan[400]'),
+                  '--tw-prose-invert-bold': theme('colors.white'),
+                  '--tw-prose-invert-counters': theme('colors.gray[400]'),
+                  '--tw-prose-invert-bullets': theme('colors.gray[500]'),
+                  '--tw-prose-invert-hr': theme('colors.gray[700]'),
+                  '--tw-prose-invert-quotes': theme('colors.gray[200]'),
+                  '--tw-prose-invert-quote-borders': theme('colors.cyan[500]'),
+                  '--tw-prose-invert-captions': theme('colors.gray[400]'),
+                  '--tw-prose-invert-code': theme('colors.white'),
+                  '--tw-prose-invert-pre-code': theme('colors.gray[300]'),
+                  '--tw-prose-invert-pre-bg': theme('colors.gray[800]'),
+                  '--tw-prose-invert-th-borders': theme('colors.gray[600]'),
+                  '--tw-prose-invert-td-borders': theme('colors.gray[700]'),
+                },
+              },
+            }),
+          }
+        },
+        plugins: [
+          require('@tailwindcss/typography'),
+        ],
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
